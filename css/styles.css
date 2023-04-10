@@ -1,18 +1,5 @@
-.top-header {
-  /* ... */
-}
-
-.nav-menu {
-  /* ... */
-}
-
-
-.menu {
-  /* ... */
-}
-
 /* Web */
-.logo {
+.logo, {
 width: 44px;
 height: 21px;
 font-family: 'Raleway', sans-serif;
@@ -30,8 +17,23 @@ order: 0;
 flex-grow: 0;
 }
 
+/* Studio */
 .logo-part {
-
+width: 71px;
+height: 21px;
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2E2F42;
+flex: none;
+order: 1;
+flex-grow: 0;
 }
 
 .menu-link {
