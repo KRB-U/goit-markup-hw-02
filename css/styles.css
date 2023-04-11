@@ -2,16 +2,27 @@
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
 
+  /* Pressed state > CTAs */
   --ocean-button-color: #404bbf;
+  /* Primary Brand > CTAs, Focused, Active, states, Links */
   --iris-button-color: #4d5ae5;
 
+  /* Hero background > Hero image background, Modal overlay, Overlay.
+  Dark > Overlays, Shadows, Headings */
   --navy-blue-color: #2e2f42;
+  /* Success > Valid fields, Success messages */
   --green-color: #31d0aa;
+  /* Text > Body text */
   --slate-color: #434455;
+  /* Subtle Text > Helper text, Deemphasized text */
   --light-slate-color: #8e8f99;
+  /* Accent > Accent color, Hairlines, Subtle backgrounds*/
   --cornflower-color: #e7e9fc;
+  /* Light > Light mode backgrounds. Light mode Dialogs/alerts */
   --cloud-background-color: #f4f4fd;
+  /* White background > Header,  team card background */
   --white-color: #ffffff;
+  /* Modal background  */
   --dairy-color: #fcfcfc;
 }
 
