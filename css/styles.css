@@ -1,27 +1,25 @@
 :root {
---primary-font: 'Roboto', sans-serif;
---secondary-font: 'Raleway', sans-serif; 
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
 
---ocean-button-color: #404BBF; 
---iris-button-color: #4D5AE5;
+  --ocean-button-color: #404bbf;
+  --iris-button-color: #4d5ae5;
 
---navy-blue-color: #2E2F42;
---green-color: #31D0AA;
---slate-color: #434455;
---light-slate-color: #8E8F99;
---cornflower-color: #E7E9FC;
---cloud-background-color: #F4F4FD;
---white-color: #ffffff;
---dairy-color: #FCFCFC;
-
-} 
+  --navy-blue-color: #2e2f42;
+  --green-color: #31d0aa;
+  --slate-color: #434455;
+  --light-slate-color: #8e8f99;
+  --cornflower-color: #e7e9fc;
+  --cloud-background-color: #f4f4fd;
+  --white-color: #ffffff;
+  --dairy-color: #fcfcfc;
+}
 
 /* ==================ul and link style configuration================== */
 .list {
   list-style: none;
   /* ... */
 }
-
 
 .link {
   text-decoration: none;
@@ -30,8 +28,8 @@
 /* ==================/ul and link style configuration================== */
 
 body {
-  font-family: 'Roboto', sans-serif;
-  background-color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
 }
 
 /* ==========================HEAD ========================== */
@@ -47,7 +45,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--iris-button-color);
 }
 
 /* studio logo part */
@@ -61,7 +59,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--navy-blue-color);
 }
 
 .menu-link {
@@ -69,12 +67,12 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--navy-blue-color);
 }
 
 .menu-link:is(:hover, :focus),
 .email:is(:hover, :focus) {
-  color: #404bbf;
+  color: var(--ocean-button-color);
 }
 
 .email {
@@ -82,19 +80,18 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #404bbf;
+  color: var(--ocean-button-color);
 }
 
 .phone-number {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate-color);
 }
 
 /* ==========================/HEAD ========================== */
-
 
 /* ==========================HERO ========================== */
 .hero {
@@ -125,8 +122,6 @@ color: #434455;
   background-color: #4d5ae5;
 }
 
-
-
 .order-button:is(:hover, :focus) {
   color: var(--iris-button-color, #ffffff);
   background-color: #404bbf;
@@ -134,12 +129,8 @@ color: #434455;
 
 /* ==========================/HERO ========================== */
 
-
-
 /* ==========================Scroll-section========================== */
 .scroll-section {
-
-  
 }
 
 /* ==========================/Scroll-section========================== */
