@@ -2,7 +2,7 @@
   --main-btn-color: #4d5ae5;
 }
 
-/* style configuration */
+/* ==================style configuration================== */
 .list,
 .contacts-items,
 .scroll-section {
@@ -10,15 +10,17 @@
   /* ... */
 }
 
-.link,
-.contacts-items {
+
+.link {
   text-decoration: none;
   /* ... */
 }
+/* ==================/style configuration================== */
+
 
 /* ==========================HEAD ========================== */
 
-/* Web */
+/* Web logo part*/
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -32,6 +34,7 @@
   color: #4d5ae5;
 }
 
+/* studio logo part */
 .studio-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -44,8 +47,6 @@
   text-transform: uppercase;
   color: #2e2f42;
 }
-
-/* ==========================/HEAD ========================== */
 
 .menu-link {
   font-family: "Roboto", sans-serif;
@@ -72,6 +73,19 @@
   letter-spacing: 0.02em;
   color: #404bbf;
 }
+
+.phone-number {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+/* ==========================/HEAD ========================== */
+
 
 /* ==========================HERO ========================== */
 .hero {
