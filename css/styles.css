@@ -39,7 +39,7 @@
 /* ==================/ul and link style configuration================== */
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", 'Times New Roman', sans-serif;
   background-color: #ffffff;
 }
 
@@ -145,3 +145,11 @@ body {
 }
 
 /* ==========================/Scroll-section========================== */
+
+/* portfolio */
+
+.but-list-item:is(:hover, :focus) {
+  color: var(--cornflower-color) #f4f4fd;
+  background-color: var(--iris-button-color);
+  cursor: pointer;
+}
