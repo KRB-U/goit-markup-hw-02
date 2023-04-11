@@ -5,7 +5,7 @@
 --ocean-button-color: #404BBF; 
 --iris-button-color: #4D5AE5;
 
---navy-blue-background-color: #2E2F42;
+--navy-blue-color: #2E2F42;
 --green-color: #31D0AA;
 --slate-color: #434455;
 --light-slate-color: #8E8F99;
@@ -13,8 +13,6 @@
 --cloud-background-color: #F4F4FD;
 --white-color: #ffffff;
 --dairy-color: #FCFCFC;
-
---main-btn-color: #4d5ae5;
 
 } 
 
@@ -130,7 +128,7 @@ color: #434455;
 
 
 .order-button:is(:hover, :focus) {
-  color: var(--main-btn-color, #ffffff);
+  color: var(--iris-button-color, #ffffff);
   background-color: #404bbf;
 }
 
@@ -139,5 +137,9 @@ color: #434455;
 
 
 /* ==========================Scroll-section========================== */
+.scroll-section {
+
+  
+}
 
 /* ==========================/Scroll-section========================== */
