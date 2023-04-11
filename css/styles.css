@@ -14,29 +14,37 @@
   }
 
 /* ==========================HEAD ========================== */
+
+
 /* Web */
-.logo, {
-width: 44px;
-height: 21px;
-font-family: 'Raleway', sans-serif;
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: #4D5AE5;
-flex: none;
-order: 0;
-flex-grow: 0;
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4D5AE5;
 }
 
-/* Studio */
-.logo-part {
-    color: #2E2F42;
+
+.studio-logo {
+  font-family: 'Raleway', sans-serif;;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2E2F42;
 }
+
+
 
 /* Dark-bg
 position: absolute;
@@ -59,10 +67,8 @@ background: #2E2F42; */
   color: #2e2f42;
 }
 
-.menu-link:hover,
-.menu-link:focus
-.email:hover,
-.email:focus {
+.menu-link:is(:hover, :focus),
+.email:is(:hover, :focus) {
   color: #404bbf;
 }
 
@@ -88,7 +94,7 @@ align-items: center;
 letter-spacing: 0.04em;
 cursor: pointer;
 color: #ffffff
-background-color:#4D5AE5;    
+background-color: #4D5AE5;    
 }
 
 .order-button:is(:hover, :focus) {
