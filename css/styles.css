@@ -15,7 +15,6 @@
 
 /* ==========================HEAD ========================== */
 
-
 /* Web */
 .header-logo {
   font-family: 'Raleway', sans-serif;
@@ -30,7 +29,6 @@
   color: #4D5AE5;
 }
 
-
 .studio-logo {
   font-family: 'Raleway', sans-serif;;
   font-style: normal;
@@ -43,8 +41,6 @@
   text-transform: uppercase;
   color: #2E2F42;
 }
-
-
 
 /* Dark-bg
 position: absolute;
