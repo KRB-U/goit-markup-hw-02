@@ -41,6 +41,7 @@
 body {
   font-family: "Roboto", 'Times New Roman', sans-serif;
   background-color: #ffffff;
+
 }
 
 /* ==========================HEAD ========================== */
@@ -141,15 +142,23 @@ body {
 /* ==========================/HERO ========================== */
 
 /* ==========================Scroll-section========================== */
-.scroll-section {
-}
+
 
 /* ==========================/Scroll-section========================== */
 
-/* portfolio */
+/* ==========================portfolio========================== */
+
+.but-list {
+font-style: Medium;
+font-size: 16px;
+line-height: 1.5;
+text-align:  Center;
+vertical-align: Center;
+/* color: var(--iris-button-color); */
+}
 
 .but-list-item:is(:hover, :focus) {
-  color: var(--cornflower-color) #f4f4fd;
+  color: var(--cornflower-color, #ffffff);
   background-color: var(--iris-button-color);
   cursor: pointer;
 }
