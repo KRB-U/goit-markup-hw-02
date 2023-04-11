@@ -2,7 +2,19 @@
 --primary-font: 'Roboto', sans-serif;
 --secondary-font: 'Raleway', sans-serif; 
 
-  --main-btn-color: #4d5ae5;
+--ocean-button-color: #404BBF; 
+--iris-button-color: #4D5AE5;
+
+--navy-blue-background-color: #2E2F42;
+--green-color: #31D0AA;
+--slate-color: #434455;
+--light-slate-color: #8E8F99;
+--cornflower-color: #E7E9FC;
+--cloud-background-color: #F4F4FD;
+--white-color: #ffffff;
+--dairy-color: #FCFCFC;
+
+--main-btn-color: #4d5ae5;
 
 } 
 
