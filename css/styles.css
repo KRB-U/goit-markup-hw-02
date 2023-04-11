@@ -21,7 +21,7 @@
 /* Web logo part*/
 .header-logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
+  font-style: ExtraBold;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -35,7 +35,7 @@
 /* studio logo part */
 .studio-logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
+  font-style: ExtraBold;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
