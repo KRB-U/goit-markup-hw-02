@@ -82,15 +82,15 @@ body {
   color: var(--navy-blue-color);
 }
 
-.menu-link:is(:hover, :focus),
-.email:is(:hover, :focus) {
-  color: var(--ocean-button-color);
-}
-
 .email {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  color: var(--slate-color);
+}
+
+.menu-link:is(:hover, :focus),
+.email:is(:hover, :focus) {
   color: var(--ocean-button-color);
 }
 
@@ -99,6 +99,10 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--slate-color);
+}
+
+.phone-number-second:is(:hover, :focus) {
+  color: var(--ocean-button-color);
 }
 
 /* ==========================/HEAD ========================== */
