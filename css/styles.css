@@ -59,10 +59,10 @@ body {
 
 /* footer formatting text */
 .text-format {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-color: var(--cloud-background-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--cloud-background-color);
 }
 
 /* studio logo part */
@@ -124,12 +124,12 @@ color: var(--cloud-background-color);
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
-   background-color: var(--iris-button-color);
+  background-color: var(--iris-button-color);
   color: var(--white-color);
 }
 
 .order-button.primary:is(:hover, :focus) {
-    background-color: var(--ocean-button-color);
+  background-color: var(--ocean-button-color);
   color: var(--white-color);
 }
 
@@ -177,4 +177,4 @@ color: var(--cloud-background-color);
   color: var(--cornflower-color);
   background-color: var(--ocean-button-color);
   cursor: pointer;
-} 
+}
