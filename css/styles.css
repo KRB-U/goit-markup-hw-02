@@ -144,16 +144,19 @@ body {
 
 /* ==========================Scroll-section========================== */
 .scroll-title {
-  font-style: Medium;
+  font-style: normal;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--navy-blue-color);
 }
 
 .scroll-title-description {
-  font-style: regular;
+  font-style: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  color: var(--slate-color);
 }
 
 /* ==========================/Scroll-section========================== */
