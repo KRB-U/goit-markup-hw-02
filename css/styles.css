@@ -76,7 +76,6 @@ body {
 }
 
 .menu-link {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: var(--navy-blue-color);
@@ -117,7 +116,6 @@ body {
 
 /* Button Text */
 .order-button {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
