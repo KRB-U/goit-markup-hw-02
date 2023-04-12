@@ -61,6 +61,14 @@ body {
   color: var(--iris-button-color);
 }
 
+/* footer formatting text */
+.text-format {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: var(--cloud-background-color);
+}
+
 /* studio logo part */
 .studio-logo {
   font-family: "Raleway", sans-serif;
@@ -127,17 +135,14 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
   cursor: pointer;
-  color: #ffffff;
-  background-color: #4d5ae5;
+   background-color: var(--iris-button-color);
+  color: var(--white-color);
 }
 
-.order-button:is(:hover, :focus) {
-  color: var(--iris-button-color, #ffffff);
-  background-color: #404bbf;
+.order-button.primary:is(:hover, :focus) {
+    background-color: var(--ocean-button-color);
+  color: var(--white-color);
 }
 
 /* ==========================/HERO ========================== */
@@ -145,7 +150,6 @@ body {
 /* ==========================Scroll-section========================== */
 .scroll-title {
   font-style: normal;
-  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--navy-blue-color);
@@ -164,24 +168,25 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
-  color: var(--navy-blue-color)
+  color: var(--navy-blue-color);
 }
 
+.fond {
+  background: var(--cloud-background-color);
+}
 /* ==========================/Scroll-section========================== */
 
 /* ==========================portfolio========================== */
 
-.but-list {
-  font-style: Medium;
+.but-list-item {
   font-size: 16px;
   line-height: 1.5;
-  text-align: Center;
-  vertical-align: Center;
-  /* color: var(--iris-button-color); */
+  background-color: var(--cloud-background-color);
+  color: var(--iris-button-color);
 }
 
 .but-list-item:is(:hover, :focus) {
-  color: var(--cornflower-color, #ffffff);
-  background-color: var(--iris-button-color);
+  color: var(--cornflower-color);
+  background-color: var(--ocean-button-color);
   cursor: pointer;
-}
+} 
