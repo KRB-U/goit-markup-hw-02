@@ -159,6 +159,14 @@ body {
   color: var(--slate-color);
 }
 
+.title-pages {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--navy-blue-color)
+}
+
 /* ==========================/Scroll-section========================== */
 
 /* ==========================portfolio========================== */
