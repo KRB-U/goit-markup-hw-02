@@ -48,7 +48,7 @@ body {
 /* ==========================HEAD ========================== */
 
 /* Web logo part*/
-.header-logo {
+.header-logo, .basement-logo {
   font-family: "Raleway", sans-serif;
   font-style: ExtraBold;
   font-weight: 800;
@@ -82,7 +82,7 @@ body {
   color: var(--navy-blue-color);
 }
 
-.email {
+.email, .phone-number{
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -92,13 +92,6 @@ body {
 .menu-link:is(:hover, :focus),
 .email:is(:hover, :focus) {
   color: var(--ocean-button-color);
-}
-
-.phone-number {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--slate-color);
 }
 
 .phone-number-second:is(:hover, :focus) {
@@ -162,10 +155,21 @@ body {
   color: var(--navy-blue-color);
 }
 
-.fond {
+.team {
   background: var(--cloud-background-color);
 }
 /* ==========================/Scroll-section========================== */
+
+/* ========================== basement logo==========================  */
+
+.studio-basement-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: ExtraBold;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  color: var(--cloud-background-color);
+}
 
 /* ==========================portfolio========================== */
 
