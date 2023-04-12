@@ -39,7 +39,7 @@
 /* ==================/ul and link style configuration================== */
 
 body {
-  font-family: "Roboto", 'Times New Roman', sans-serif;
+  font-family: "Roboto", "Times New Roman", sans-serif;
   background-color: #ffffff;
   font-weight: 500;
   color: var(--slate-color);
@@ -143,19 +143,30 @@ body {
 /* ==========================/HERO ========================== */
 
 /* ==========================Scroll-section========================== */
+.scroll-title {
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-blue-color);
+}
 
+.scroll-title-description {
+  font-style: regular;
+  font-size: 16px;
+  line-height: 1.5;
+}
 
 /* ==========================/Scroll-section========================== */
 
 /* ==========================portfolio========================== */
 
 .but-list {
-font-style: Medium;
-font-size: 16px;
-line-height: 1.5;
-text-align:  Center;
-vertical-align: Center;
-/* color: var(--iris-button-color); */
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: Center;
+  vertical-align: Center;
+  /* color: var(--iris-button-color); */
 }
 
 .but-list-item:is(:hover, :focus) {
