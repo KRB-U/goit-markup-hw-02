@@ -41,7 +41,8 @@
 body {
   font-family: "Roboto", 'Times New Roman', sans-serif;
   background-color: #ffffff;
-
+  font-weight: 500;
+  color: var(--slate-color);
 }
 
 /* ==========================HEAD ========================== */
