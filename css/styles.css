@@ -176,6 +176,8 @@ body {
 
 .team {
   background: var(--cloud-background-color);
+  font-weight: 500;
+  letter-spacing: 0.02em;
 }
 /* ==========================/Scroll-section========================== */
 
