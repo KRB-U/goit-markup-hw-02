@@ -39,7 +39,7 @@
 /* ==================/ul and link style configuration================== */
 
 body {
-  font-family: 'Roboto', "Helvetica Neue", "Roboto", "Verdana", "Tahoma",
+  font-family: "Roboto", "Helvetica Neue", "Roboto", "Verdana", "Tahoma",
     sans-serif;
   background-color: var(--white-color);
   font-weight: 500;
@@ -90,7 +90,6 @@ body {
   line-height: 1.5;
   color: var(--navy-blue-color);
   letter-spacing: 0.04em;
-
 }
 
 .email,
@@ -167,6 +166,15 @@ body {
   line-height: 1.5;
   color: var(--slate-color);
   letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.hum-devoloper {
+  background-color: var(--white-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .title-pages {
@@ -187,9 +195,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.hum-devoloper {
-  background-color: var(--white-color);
-}
+
 /* ==========================/Scroll-section========================== */
 
 /* лого підвалу */
@@ -224,5 +230,4 @@ body {
 }
 
 .image-post {
-  
 }
