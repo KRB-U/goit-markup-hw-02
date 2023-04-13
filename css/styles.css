@@ -59,6 +59,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.preform {
+  letter-spacing: 0.02em;
+}
 
 /* footer formatting text */
 .text-format {
@@ -66,6 +69,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--cloud-background-color);
+  letter-spacing: 0.03em;
 }
 
 /* studio logo part */
@@ -111,12 +115,14 @@ body {
 .top-header {
   font-style: 400;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 /* ==========================HERO ========================== */
 .hero,
 .basement {
   background-color: var(--navy-blue-color);
+  letter-spacing: 0.03em;
 }
 
 /* text hero 1 */
@@ -159,7 +165,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--slate-color);
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 
 .title-pages {
