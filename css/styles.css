@@ -166,7 +166,6 @@ body {
   line-height: 1.5;
   color: var(--slate-color);
   letter-spacing: 0.02em;
-  text-align: center;
 }
 
 .hum-devoloper {
@@ -175,6 +174,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--navy-blue-color);
 }
 
 .title-pages {
