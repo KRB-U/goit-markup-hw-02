@@ -39,7 +39,8 @@
 /* ==================/ul and link style configuration================== */
 
 body {
-  font-family: "Roboto", 'Helvetica Neue', 'Roboto', 'Verdana', 'Tahoma', sans-serif;
+  font-family: 'Roboto', "Helvetica Neue", "Roboto", "Verdana", "Tahoma",
+    sans-serif;
   background-color: var(--white-color);
   font-weight: 500;
   color: var(--slate-color);
@@ -55,6 +56,8 @@ body {
   font-size: 18px;
   line-height: 1.17;
   color: var(--iris-button-color);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /* footer formatting text */
@@ -73,12 +76,16 @@ body {
   font-size: 18px;
   line-height: 1.17;
   color: var(--navy-blue-color);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
-.menu-link {
+.menu-link,
+.but-list {
   font-size: 16px;
   line-height: 1.5;
   color: var(--navy-blue-color);
+  letter-spacing: 0.04em;
 }
 
 .email,
@@ -100,6 +107,12 @@ body {
 
 /* ==========================/HEAD ========================== */
 
+/* header */
+.top-header {
+  font-style: 400;
+  letter-spacing: 0.02em;
+}
+
 /* ==========================HERO ========================== */
 .hero,
 .basement {
@@ -110,8 +123,10 @@ body {
 .section-description {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
   color: var(--white-color);
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 /* Button Text */
@@ -132,26 +147,28 @@ body {
 
 /* ==========================Scroll-section========================== */
 .scroll-title {
-  font-style: normal;
+  font-style: 400;
   font-size: 20px;
   line-height: 1.2;
   color: var(--navy-blue-color);
 }
 
 .scroll-title-description {
-  font-style: normal;
+  font-style: 400;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   color: var(--slate-color);
+  letter-spacing: 0.02em
 }
 
 .title-pages {
-  font-style: normal;
+  font-style: 500;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   color: var(--navy-blue-color);
+  letter-spacing: 0.02em
 }
 
 .team {
@@ -168,6 +185,8 @@ body {
   font-size: 18px;
   line-height: 1.17;
   color: var(--cloud-background-color);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 /* ==========================portfolio========================== */
