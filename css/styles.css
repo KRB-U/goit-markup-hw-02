@@ -90,6 +90,7 @@ body {
   line-height: 1.5;
   color: var(--navy-blue-color);
   letter-spacing: 0.04em;
+
 }
 
 .email,
@@ -211,10 +212,13 @@ body {
   line-height: 1.5;
   background-color: var(--cloud-background-color);
   color: var(--iris-button-color);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.04em;
 }
 
 .sec-button:is(:hover, :focus) {
-  color: var(--cornflower-color);
+  color: var(--white-color);
   background-color: var(--ocean-button-color);
   cursor: pointer;
 }
