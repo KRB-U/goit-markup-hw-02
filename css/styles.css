@@ -194,18 +194,15 @@ body {
 
 .title-pages {
   font-style: 500;
-  font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
   color: var(--navy-blue-color);
-  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
 }
 
 .team {
   background: var(--cloud-background-color);
-  letter-spacing: 0.02em;
 }
 
 /* ==========================/Scroll-section========================== */
