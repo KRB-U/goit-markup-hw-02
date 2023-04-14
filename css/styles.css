@@ -39,7 +39,7 @@
 /* ==================/ul and link style configuration================== */
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: var(--white-color);
   font-weight: 500;
   color: var(--slate-color);
@@ -83,12 +83,11 @@ body {
   text-transform: uppercase;
 }
 
-.menu-link
- {
+.menu-link {
   font-size: 16px;
   line-height: 1.5;
   color: var(--navy-blue-color);
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
 }
 
 .but-list {
@@ -149,19 +148,17 @@ body {
 .order-button {
   font-size: 16px;
   line-height: 1.5;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   letter-spacing: 0.04em;
   cursor: pointer;
   background-color: var(--iris-button-color);
   color: var(--white-color);
-
 }
 
 .but-primary:is(:hover, :focus) {
   background-color: var(--ocean-button-color);
   color: var(--white-color);
-
 }
 
 .contacts-sec {
@@ -214,7 +211,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-
 /* ==========================/Scroll-section========================== */
 
 /* лого підвалу */
@@ -247,4 +243,3 @@ body {
   background-color: var(--ocean-button-color);
   cursor: pointer;
 }
-
