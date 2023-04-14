@@ -97,8 +97,7 @@ body {
   letter-spacing: 0.04em;
 }
 
-.email,
-.phone-number {
+.contact-pc {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -114,9 +113,9 @@ body {
   font-style: normal;
 }
 
-.phone-number-second:is(:hover, :focus) {
+/* .phone-number-second:is(:hover, :focus) {
   color: var(--ocean-button-color);
-}
+} */
 
 /* ==========================/HEAD ========================== */
 
