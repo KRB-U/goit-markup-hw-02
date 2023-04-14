@@ -105,6 +105,10 @@ body {
   color: var(--ocean-button-color);
 }
 
+.contacts-normal {
+  font-style: normal;
+}
+
 .phone-number-second:is(:hover, :focus) {
   color: var(--ocean-button-color);
 }
