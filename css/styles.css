@@ -58,18 +58,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.preform {
-  letter-spacing: 0.02em;
-}
-
-/* footer formatting text */
-.text-format {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--cloud-background-color);
-  letter-spacing: 0.03em;
-}
 
 /* studio logo part */
 .studio-logo {
@@ -81,6 +69,19 @@ body {
   color: var(--navy-blue-color);
   letter-spacing: 0.03em;
   text-transform: uppercase;
+}
+
+.preform {
+  letter-spacing: 0.02em;
+}
+
+/* footer formatting text */
+.text-format {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--cloud-background-color);
+  letter-spacing: 0.03em;
 }
 
 .menu-link {
