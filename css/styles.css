@@ -39,7 +39,7 @@
 /* ==================/ul and link style configuration================== */
 
 body {
-  font-family: "Roboto", sans-serif, 'Helvetica Neue', 'Verdana', 'Tahoma';
+  font-family: 'Roboto', sans-serif;
   background-color: var(--white-color);
   font-weight: 500;
   color: var(--slate-color);
