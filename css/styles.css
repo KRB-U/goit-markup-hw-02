@@ -146,11 +146,15 @@ body {
   cursor: pointer;
   background-color: var(--iris-button-color);
   color: var(--white-color);
+  letter-spacing: 0.04em;
+  font-weight: 500;
 }
 
 .but-primary:is(:hover, :focus) {
   background-color: var(--ocean-button-color);
   color: var(--white-color);
+  letter-spacing: 0.04em;
+  font-weight: 500;
 }
 
 /* ==========================/HERO ========================== */
