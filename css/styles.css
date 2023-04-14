@@ -113,9 +113,9 @@ body {
   font-style: normal;
 }
 
-/* .phone-number-second:is(:hover, :focus) {
+.contact-pc-second:is(:hover, :focus) {
   color: var(--ocean-button-color);
-} */
+}
 
 /* ==========================/HEAD ========================== */
 
