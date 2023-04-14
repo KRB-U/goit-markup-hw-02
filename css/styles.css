@@ -72,7 +72,7 @@ body {
 }
 
 .preform {
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
 }
 
 /* footer formatting text */
@@ -123,7 +123,7 @@ body {
 /* header */
 .top-header {
   font-style: normal;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   font-style: normal;
 }
 
@@ -227,6 +227,10 @@ body {
 }
 
 /* ==========================portfolio========================== */
+
+.head-logo-port {
+  letter-spacing: 0.03em
+}
 
 .but-item {
   font-size: 16px;
