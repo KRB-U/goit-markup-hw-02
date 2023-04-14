@@ -202,6 +202,11 @@ body {
   text-transform: capitalize;
 }
 
+.scroll-section {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
 .team {
   background: var(--cloud-background-color);
 }
