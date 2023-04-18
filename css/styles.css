@@ -92,6 +92,7 @@ body {
 }
 
 .but-list {
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   color: var(--navy-blue-color);
@@ -247,6 +248,7 @@ body {
 }
 
 .but-item {
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   background-color: var(--cloud-background-color);
